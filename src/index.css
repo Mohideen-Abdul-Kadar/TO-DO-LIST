@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: yellow;
+  flex-direction: column;
+  font-size: 1.5rem;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+/* .list-of-tasks-todo {
+  display: grid;
+  place-content: center;
+} */
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+}
+.task-name {
+  cursor: pointer;
+  padding: 10px;
+  width: 250px;
+  margin-bottom: 5px;
+}
+.isCompleted-task {
+  text-decoration: line-through;
+  font-size: 15px;
+  font-weight: bold;
+
+  margin-bottom: 5px;
+}
+button {
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+.task-status button {
+  color: grey;
+}
+input {
+  background: white;
+  padding: 7px 10px;
+  font-size: 1rem;
+  color: black;
+  outline: none;
+  border: none;
+  flex: 1;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  /* justify-content: space-between; */
+}
+form button {
+  color: black;
+  background: blue;
+  outline: none;
+  padding: 8px;
+}
+i {
+  color: black;
+}
+.delete {
+  margin-left: 3px;
+  background-color: red;
+  padding: 8px;
+}
